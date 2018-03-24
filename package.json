@@ -1,0 +1,16 @@
+{
+  "name": "new-game-without-a-name",
+  "version": "0.1.0",
+  "description": "Yes yes yes!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "SinnerSchrader",
+  "license": "MIT",
+  "dependencies": {
+    "node-librealsense": "^0.2100.0",
+    "opencv4nodejs": "^3.5.0"
+  }
+}
