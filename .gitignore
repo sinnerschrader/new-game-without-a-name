@@ -1,3 +1,4 @@
 node_modules/
 librealsense/
 .idea/
+py/librealsense
