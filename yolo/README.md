@@ -1,14 +1,11 @@
 ## YOLO_tensorflow
 
 Tensorflow implementation of [YOLO](https://arxiv.org/pdf/1506.02640.pdf), including training and test phase.
+Based on https://github.com/hizhangp/yolo_tensorflow.
 
 ### Installation
 
-1. Clone yolo_tensorflow repository
-	```Shell
-	$ git clone https://github.com/hizhangp/yolo_tensorflow.git
-    $ cd yolo_tensorflow
-	```
+1. Inside the `yolo` directory execute `PIPENV_VENV_IN_PROJECT=true pipenv install` and `pipenv shell` to run the next commands in.
 
 2. Download Pascal VOC dataset, and create correct directories
 	```Shell
@@ -29,8 +26,3 @@ weight file and put it in `data/weight`
 	```Shell
 	$ python test.py
 	```
-
-### Requirements
-1. Tensorflow
-
-2. OpenCV
