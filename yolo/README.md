@@ -9,7 +9,7 @@ Based on https://github.com/hizhangp/yolo_tensorflow.
 
 2. Download Pascal VOC dataset, and create correct directories
 	```Shell
-	$ ./download_data.sh
+	$ bash ./download_data.sh
 	```
 
 3. Download [YOLO_small](https://drive.google.com/file/d/0B5aC8pI-akZUNVFZMmhmcVRpbTA/view?usp=sharing)
